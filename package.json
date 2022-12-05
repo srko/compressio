@@ -1,0 +1,20 @@
+{
+    "name": "code",
+    "version": "2.0.0",
+    "description": "",
+    "main": "compressio.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+    },
+    "dependencies": {
+        "ewizard-cli": "^0.34.2",
+        "glob": "^8.0.3",
+        "sharp": "^0.30.7"
+    }
+}
