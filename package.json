@@ -1,20 +1,29 @@
 {
-    "name": "code",
-    "version": "2.0.0",
-    "description": "",
-    "main": "compressio.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "type": "module",
-    "devDependencies": {
-    },
-    "dependencies": {
-        "ewizard-cli": "^0.34.2",
-        "glob": "^8.0.3",
-        "sharp": "^0.30.7"
-    }
+  "name": "code",
+  "version": "2.0.0",
+  "description": "",
+  "main": "compressio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/eslint-parser": "^7.19.1",
+    "@types/node": "^18.11.11",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0"
+  },
+  "dependencies": {
+    "ewizard-cli": "^0.34.2",
+    "glob": "^8.0.3",
+    "sharp": "^0.30.7"
+  }
 }
